@@ -10,8 +10,9 @@ a{text-decoration:none}
   font-size: 40px;
   background: linear-gradient(90deg, #22d3ee, #d946ef);
   -webkit-background-clip: text;
+  background-clip: text; /* Add this for better support */
   color: transparent;
-  margin-right: 60px; /* Add this line */
+  margin-left: 60px; /* Use margin-left for RTL */
 }
 .hero-img img {
   transform: translateX(368px);
